@@ -10,5 +10,5 @@ pub enum State {
     EditExpenditure(Expenditure),
     AddNewBudget,
     RemoveBudget(Budget),
-    EditBudget(Budget)
+    EditBudget(Budget),
 }

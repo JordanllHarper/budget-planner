@@ -1,7 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use crate::budget;
-    use crate::budget::{parse_lowest_form, SupportedCurrencies};
+    use crate::currency::{parse_lowest_form, SupportedCurrencies};
 
     #[test]
     fn test_parse_lowest_form() {
