@@ -1,18 +1,10 @@
-mod Budget;
+mod budget;
+mod currency;
 mod program_state;
+mod tests;
 
 fn main() {
     println!("Hello, world!");
 }
 
-#[cfg(test)]
-mod tests {
-    use crate::Budget;
 
-    #[test]
-    fn test_parse_lowest_form() {
-        let data = "£3.50";
-        let expected = 350;
-        let actual = Budget
-    }
-}
