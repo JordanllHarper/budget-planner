@@ -6,5 +6,6 @@ pub enum State {
     ViewSpecificBudget(Budget),
     Finished,
     AddNewBudget,
+    AddExpenditure(Expenditure)
     RemoveBudget(Budget),
 }
