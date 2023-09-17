@@ -1,10 +1,8 @@
-mod budget;
-mod currency;
-mod program_state;
+mod models;
+mod state;
 mod tests;
 
+mod budget_repo;
 fn main() {
     println!("Hello, world!");
 }
-
-

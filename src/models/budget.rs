@@ -1,4 +1,4 @@
-use crate::currency::Currency;
+use super::currency::Currency;
 
 pub struct Budget {
     amount_in_lowest_form: i32,
